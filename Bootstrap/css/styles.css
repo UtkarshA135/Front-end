@@ -1,0 +1,288 @@
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu');
+body{
+  text-align: center;
+  margin: auto;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.payment{
+  background: #f8f8f8;
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 70px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.payment h2{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #0d3c61;
+}
+
+.form .label{
+  display: block;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.input{
+  padding: 13px 0px 13px 25px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  font-size: 16px;
+  color: #555555;
+}
+
+.card-grp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item{
+  width: 48%;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+.icon-relative{
+  position: relative;
+}
+
+.icon-relative .fas,
+.icon-relative .far{
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.btn{
+  margin-top: 40px;
+  background: #2196F3;
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.payment-logo{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  text-align: center;
+  line-height: 85px;
+}
+
+.payment-logo:before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 90px;
+  background: #2196F3;
+  border-radius: 50%;
+}
+
+.payment-logo p{
+  position: relative;
+  color: #f8f8f8;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 58px;
+}
+
+
+@media screen and (max-width: 420px){
+  .card-grp{
+    flex-direction: column;
+  }
+  .card-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
+.logo-image{
+   width: 50px;
+   height:50px;
+   border-radius: 50%;
+
+   margin-top: -6px;
+}
+.card{
+  box-shadow:
+    0 7px 30px -10px rgba(150,170,180,0.5);
+  width:600px;
+  margin: 20px auto; /* Added */
+     float: none; /* Added */
+     margin-bottom: 10px; /* Added */
+}
+#paypal-button-container
+{
+  width:600px;
+  margin: 0 auto; /* Added */
+     float: none; /* Added */
+     margin-bottom: 10px;
+}
+.navbar-brand{
+font-family: 'Zen Dots', cursive;
+
+}
+h1{
+
+  margin-top: 50px auto 0 auto;
+  font-size: 562.5%;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+     line-height: 2;
+}
+body{
+  margin: 0;
+  color:  #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+p{
+
+}
+.top-conatiner{
+  background-color: #eaf6f6;
+  padding-top:100px;
+
+}
+.flutter-img{
+  width: 25%;
+
+  float: left;
+  margin-right: 30px;
+}
+.cp-img{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.skill-row{
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+h3{
+  color: #11999E
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  color:  #11999E;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6
+}
+.intro{
+  width: 28%;
+  margin: auto;
+}
+.copyright{
+  color:#eaf6f6;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+p{
+  line-height: 2
+}
+h2{
+  padding-bottom: 10px;
+  font-weight: normal;
+    color: #66BFBF;
+  font-size: 2.5rem
+}
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom:none;
+  width:4%;
+  margin :100px auto;
+
+}
+.contact{
+  width: 40%;
+  margin : 40px auto 60px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+    font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+.btn:hover {
+    font-family: 'Merriweather', serif;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.middle-container{
+margin: 100px 0;
+}
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 60px 0 20px;
+}
+.top-cloud
+{
+  position: absolute;
+top: 40px;
+right: 300px;
+}
+.bottom-cloud
+{
+  position: absolute;
+  bottom:300px;
+  left: 250px;
+}
